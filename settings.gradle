@@ -1,2 +1,1 @@
 include ':app', ':bettr-api'
-rootProject.name='Better-Api'
