@@ -1,5 +1,6 @@
 package com.mvalu.bettr_api
 
+import com.mvalu.bettr_api.network.ResponseCallback
 import com.mvalu.bettr_api.utils.BettrApiSdkLogger
 
 object BettrApiSdk {
@@ -83,5 +84,9 @@ object BettrApiSdk {
 
     fun foo() {
 
+    }
+
+    fun getDetails(responseCallback: ResponseCallback<TestModel>) {
+        responseCallback.onSuccess(TestModel())
     }
 }
