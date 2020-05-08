@@ -1,6 +1,0 @@
-<resources>
-    <!--Adding public tag to make all other resources private for this lib module-->
-    <public />
-
-    <string name="app_name">bettr-api</string>
-</resources>
